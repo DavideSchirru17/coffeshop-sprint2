@@ -1,0 +1,180 @@
+/* HEADER */
+/* rimuovo text decoration : la linea sotto il link nav a   */
+.header-menu {
+  display: flex;
+  background-color: #fff0ed;
+  height: 8rem;
+  align-items: center;
+  padding: 0 0 0 1em;
+}
+
+.nav-menu-list {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  height: 6rem;
+  /* background-color: red; */
+}
+
+.nav-list {
+  display: flex;
+  /* background-color: yellow; */
+  width: 19em;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.nav-list-link {
+  /* remove hiperlink underline and default link color */
+  text-decoration: none;
+  color: inherit;
+}
+
+#shop-now {
+  color: #5bacc3;
+}
+
+.title {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+/* SECTION HERO  -------------------------------------------*/
+.hero-background {
+  background-image: url(../assets/coffee-circle.jpg);
+  height: 40vw;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.hero-menu {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+  color: white;
+  height: 30%;
+  width: 20%;
+}
+
+.heroMenu-title {
+  margin: 0;
+  font-size: 3.75em;
+  font-weight: 300;
+}
+
+/* SECTION HERO NAVIGATION LIST   */
+.hero-navigation {
+  background-color: #393939;
+  width: 100%;
+  height: 5em;
+}
+
+.hero-list {
+  /* background-color: yellow; */
+  margin: auto;
+  width: 40%;
+  height: 4em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.313em;
+  padding: 0;
+}
+
+.list-button {
+  text-decoration: none;
+  color: white;
+  border-left: 4px solid #5bacc3;
+  padding-left: 20px;
+}
+
+/* .hero-list li a {
+  text-decoration: none;
+  color: white;
+} */
+
+/* elimino bullet points dal nav */
+ul {
+  list-style-type: none;
+}
+
+/* MAIN SECTION  */
+
+/* .boxMenu {
+  background-color: #393939;
+  color: white;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  font-size: 2.5em;
+  margin: none;
+  font-weight: 300;
+} */
+
+/* HOT DRINK SECTION  */
+.HotDrinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff0ed;
+  padding: 2rem 0;
+}
+
+.coldDrinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 2rem 0;
+  /* justify-content: center; */
+}
+
+.Pastries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff0ed;
+  padding: 2rem 0;
+}
+
+.heading2 {
+  font-size: 3.75em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+}
+.heading3 {
+  font-size: 2.063em;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.paragraphTextItalic {
+  font-size: 1.125em;
+  font-weight: 400;
+  font-style: italic;
+  width: 34%;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraphTextItalic--espresso {
+  width: 34.5%;
+}
+
+.paragraphRegular {
+  font-size: 1.125em;
+  font-weight: 400;
+  color: #5bacc3;
+  text-align: center;
+  margin: 1rem;
+}
