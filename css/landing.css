@@ -193,14 +193,48 @@
 
 .sponsor {
   display: flex;
-  background-color: red;
+  background-color: white;
   height: 60rem;
   width: 100%;
+  align-items: center;
 }
 
-.sponsor__text {
-  background: yellow;
-  width: 63%;
+.sponsor__card {
+  width: 28em;
+  margin: auto;
+}
+
+.sponsor__heading {
+  font-size: 3.75em;
+  font-weight: 300;
+  margin: 0;
+}
+
+.sponsor__logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2em;
+}
+
+.sponsor__paragraph {
+  font-size: 1.125em;
+}
+
+.sponsor__wrapperImage {
+  width: 25em;
+  height: 25em;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/images/coldbrewbackground.png);
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.sponsor__tildecanPicture {
+  height: 17.5em;
 }
 
 /* DISCOUNT SECTION -------------------- */
@@ -218,14 +252,14 @@
 
 .discountBanner__text {
   /* width in real is 90% because the container is  */
-  width: 100%;
+  width: 90%;
   background-color: #393939;
   color: white;
   text-align: center;
   font-size: 2.813em;
   font-weight: 400;
   padding: 0.8em;
-  margin: 0;
+  margin: auto;
 }
 
 .containerButton {
@@ -242,7 +276,7 @@
 
 .footer {
   background-color: #fff0ed;
-  height: 15em;
+  height: 17em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -253,8 +287,9 @@
   display: flex;
   width: 80%;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 0 13em 3em 0;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 3em;
 }
 
 .footer__heading {
