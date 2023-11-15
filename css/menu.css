@@ -51,23 +51,37 @@
   background-position: center;
   background-size: cover;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-menu {
-  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #393939;
   color: white;
-  height: 30%;
-  width: 20%;
+  height: 12.5em;
+  width: 18.75em;
+}
+
+.hero__titleboxBorder {
+  width: 300px;
+  height: 200px;
+  border: 5px solid #5bacc3;
+  background-color: transparent;
+  position: absolute;
+  left: 34.7em;
+  top: 15.8em;
 }
 
 .heroMenu-title {
   margin: 0;
   font-size: 3.75em;
   font-weight: 300;
+  position: absolute;
+  left: 10.3em;
+  top: 5.1em;
 }
 
 /* SECTION HERO NAVIGATION LIST   */
