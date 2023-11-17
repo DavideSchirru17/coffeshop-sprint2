@@ -6,32 +6,43 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="../css/menu.css" />
-    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../scss/menu.css" />
+    <link rel="stylesheet" href="../scss/partials/global.css" />
     <title>Coffee Shop - Menu</title>
   </head>
   <!-- BODY SECTION  -->
   <body>
-    <header>
-      <nav class="header-menu">
-        <a href="../index.html">
+    <!-- HEADER ----------------------------------------->
+    <header class="header">
+      <nav class="main-nav">
+        <a href="../index.html" class="main-nav__logo">
           <img
             src="../assets/logos/coffee-beans-logo-and-footer.svg"
-            alt="coffee-beans-logo-and-footer"
-        /></a>
-        <nav class="nav-menu-list">
-          <a class="title" href="">nitro</a>
-          <ul class="nav-list">
-            <li><a class="nav-list-link" href="../index.html">ABOUT</a></li>
-            <li><a class="nav-list-link" href="./menu.html">MENU</a></li>
-            <li>
-              <a class="nav-list-link" id="shop-now" href="./menu.html"
-                >SHOP NOW</a
-              >
-            </li>
-          </ul>
-        </nav>
+            alt="coffee bean logo"
+            class="icon main-nav__logo-icon" />
+        </a>
+
+        <a href="../index.html" class="main-nav__link"
+          ><h2 class="main-nav__heading">nitro</h2></a
+        >
+
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="../index.html" class="main-nav__link">ABOUT</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./menu.html" class="main-nav__link">MENU</a>
+          </li>
+          <li class="main-nav__item">
+            <a
+              href="../pages/menu.html"
+              class="main-nav__link main-nav__link--shop"
+              >SHOP NOW</a
+            >
+          </li>
+        </ul>
       </nav>
+
       <section class="hero">
         <div class="hero-background">
           <div class="hero-menu">

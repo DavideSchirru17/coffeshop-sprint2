@@ -1,3 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans";
+  /* font-weight: 400; */
+  margin: 0;
+}
+
 /* header  */
 /* NAVIGATION -------------------------------------  */
 .main-nav {
@@ -9,11 +26,13 @@
   align-items: center;
   padding: 0 1em;
 }
+
 .main-nav__heading {
   font-size: 2.663em;
   font-weight: 300;
   margin: 0;
 }
+
 .main-nav__list {
   list-style: none;
   text-decoration: none;
@@ -80,9 +99,8 @@
 .button:hover {
   background-color: #03e9f4;
   color: white;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-    0 0 200px #03e9f4;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.3333333333));
 }
 
 .button--offsetborder {
@@ -100,18 +118,18 @@
 }
 
 /*  MAIN SECTION-------------------------------  */
-
 .main-section {
   background-color: #f7f7f7;
   padding: 4em 0;
 }
+
 .products {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-/* ANIMATION PRODUCTS ----------------------------------- */
 
+/* ANIMATION PRODUCTS ----------------------------------- */
 .products_container {
   display: flex;
   width: 50%;
@@ -130,7 +148,6 @@
     width: 100%;
   }
 }
-
 .products__heading {
   font-size: 3.75em;
   font-weight: 300;
@@ -210,7 +227,6 @@
 }
 
 /* SPONSOR SECTION  -------------------------*/
-
 .sponsor {
   display: flex;
   background-color: white;
@@ -353,6 +369,7 @@
   font-weight: 300;
   margin: 0 0 1em 0;
 }
+
 .footer__footerParagraph {
   font-size: 1.125em;
   font-weight: 400;
@@ -362,4 +379,4 @@
 
 .icon {
   width: 3.125em;
-}
+}/*# sourceMappingURL=landing.css.map */
