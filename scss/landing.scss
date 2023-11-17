@@ -1,6 +1,6 @@
 @use "./partials/global" as *;
-@use "variables" as *;
-@use "mixins" as *;
+// @use "variables" as *;
+// @use "mixins" as *;
 
 /* header  */
 /* NAVIGATION -------------------------------------  */
@@ -95,8 +95,8 @@
   border: 2px solid #393939;
   background-color: transparent;
   position: relative;
-  top: -7rem;
-  left: -0.8rem;
+  top: -6.9rem;
+  left: -0.5rem;
 }
 
 .coffe-image {
@@ -209,8 +209,8 @@
   border: 2px solid #393939;
   background-color: transparent;
   position: relative;
-  top: -7.1rem;
-  left: 51.5rem;
+  top: -7rem;
+  left: 67.7rem;
 }
 
 /* SPONSOR SECTION  -------------------------*/
@@ -251,8 +251,8 @@
   border: 2px solid #393939;
   background-color: transparent;
   position: relative;
-  top: 11.5rem;
-  left: -50.6rem;
+  top: 11.9rem;
+  left: -48.3rem;
 }
 
 .sponsor__wrapperImage {
@@ -276,8 +276,8 @@
   height: 400px;
   border: solid 5px #5bacc3;
   position: relative;
-  top: -2rem;
-  left: -37rem;
+  top: -1.9rem;
+  left: -45.2rem;
 }
 
 /* DISCOUNT SECTION -------------------- */
@@ -320,12 +320,18 @@
   width: 120px;
   height: 120px;
   opacity: 25%;
+  position: relative;
+  top: -9rem;
+  left: -4rem;
 }
 
 .footer-backgroundIcons-right {
   width: 120px;
   height: 120px;
   opacity: 25%;
+  position: relative;
+  top: 1rem;
+  left: 137rem;
 }
 
 .footer {
