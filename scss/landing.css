@@ -98,8 +98,10 @@ body {
 .button:hover {
   background-color: #03e9f4;
   color: white;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.3333333333));
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(0, 0, 0, 0.3333333333));
 }
 
 .button--offsetborder {
@@ -222,7 +224,7 @@ body {
   background-color: transparent;
   position: relative;
   top: -7rem;
-  left: 67.7rem;
+  left: 61rem;
 }
 
 /* SPONSOR SECTION  -------------------------*/
@@ -232,6 +234,7 @@ body {
   height: 60rem;
   width: 100%;
   align-items: center;
+  margin-left: 10rem;
 }
 
 .sponsor__card {
@@ -262,8 +265,8 @@ body {
   border: 2px solid #393939;
   background-color: transparent;
   position: relative;
-  top: 11.9rem;
-  left: -48.3rem;
+  top: 13.1rem;
+  left: -44.9rem;
 }
 
 .sponsor__wrapperImage {
@@ -333,7 +336,7 @@ body {
   opacity: 25%;
   position: relative;
   top: -9rem;
-  left: -4rem;
+  left: -3.2rem;
 }
 
 .footer-backgroundIcons-right {
@@ -341,8 +344,7 @@ body {
   height: 120px;
   opacity: 25%;
   position: relative;
-  top: 1rem;
-  left: 137rem;
+  left: 4rem;
 }
 
 .footer {
@@ -378,4 +380,4 @@ body {
 
 .icon {
   width: 3.125em;
-}/*# sourceMappingURL=landing.css.map */
+} /*# sourceMappingURL=landing.css.map */
