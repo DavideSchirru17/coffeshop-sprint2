@@ -1,3 +1,8 @@
+I have completed the project unitll CF17, and the only part I did not change and complete is the animation in the button. I utilized a different animation. Unfortunately, I wanted to submit it on time, and I did not have enough time to finish it.
+
+Waiting your feedback to improve my work.
+Davide
+
 Requirements
 Coffee Shop
 uploading a zipped folder on synapse
