@@ -78,6 +78,20 @@
   transition: 0.1s;
 }
 
+.button-shopNow {
+  position: relative;
+}
+
+.button-shopNow--offsetborder {
+  width: 20.6rem;
+  height: 6.5rem;
+  border: 2px solid #393939;
+  background-color: transparent;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+}
+
 .button:hover {
   background-color: #03e9f4;
   color: white;
@@ -195,15 +209,17 @@
   margin: 0;
   font-weight: 700;
 }
-
-.button__viewProducts--offsetBorder {
-  width: 12.9em;
-  height: 4em;
+.button--viewProducts {
+  position: relative;
+}
+.button--viewAll--offsetBorder {
+  width: 20.5rem;
+  height: 6.3rem;
   border: 2px solid #393939;
   background-color: transparent;
-  position: relative;
-  top: -7rem;
-  left: 61rem;
+  position: absolute;
+  top: -6px;
+  left: -6px;
 }
 
 .sponsor {
@@ -236,14 +252,18 @@
   font-size: 1.125em;
 }
 
+.button--learnMore {
+  position: absolute;
+}
+
 .button--learnMore--offsetborder {
-  width: 12.9em;
-  height: 4em;
+  width: 20.6rem;
+  height: 6.5rem;
   border: 2px solid #393939;
   background-color: transparent;
-  position: relative;
-  top: 11.9rem;
-  left: -48.3rem;
+  position: absolute;
+  top: -6px;
+  left: -6px;
 }
 
 .sponsor__wrapperImage {
@@ -256,19 +276,40 @@
   background-position: center;
   background-size: cover;
   align-items: center;
+  position: relative;
 }
+
+// .sponsor__wrapperImage:hover {
+//   background-color: yellow;
+//   animation: spin 3s infinite linear;
+// }
 
 .sponsor__tildecanPicture {
   height: 17.5em;
+  z-index: 10;
+  // animation: spin 3s infinite linear;
+}
+
+.sponsor__tildecanPicture:hover {
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .sponsor__wrapperImage--borderOffset {
   width: 400px;
   height: 400px;
   border: solid 5px #5bacc3;
-  position: relative;
-  top: -1.9rem;
-  left: -45.2rem;
+  position: absolute;
+  top: -20px;
+  left: -20px;
 }
 
 .discount {
@@ -292,6 +333,24 @@
   font-weight: 400;
   padding: 0.8em;
   margin: auto;
+  animation: none;
+}
+
+.discountBanner__text:hover {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #393939;
+  }
+
+  50% {
+    background-color: #5bacc3;
+  }
+  100% {
+    background-color: #393939;
+  }
 }
 
 .containerButton {
@@ -354,3 +413,11 @@
 .icon {
   width: 3.125em;
 }
+
+// .icon--tazza {
+//   height: 50rem;
+// }
+
+// .icon--tazza:hover {
+//   height: 50rem;
+// }
