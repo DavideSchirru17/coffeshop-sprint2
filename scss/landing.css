@@ -60,20 +60,20 @@ body {
   align-items: center;
 }
 
-.card-Coffe {
+.card-coffe {
   display: grid;
   height: 22em;
   width: 25em;
   padding: 2em;
 }
 
-.card-Coffe__heading {
+.card-coffe__heading {
   font-size: 3.75em;
   font-weight: 300;
   margin: 0;
 }
 
-.card-Coffe__paragraphRegular {
+.card-coffe__paragraphRegular {
   font-size: 1.125em;
   font-weight: 400;
   padding: 2em 0 2.25em 0;
